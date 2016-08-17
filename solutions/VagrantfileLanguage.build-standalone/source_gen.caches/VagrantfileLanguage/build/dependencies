@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="VagrantfileLanguage.build.VagrantfileStandalone" file="VagrantfileStandalone.xml" />
+  <dependency className="VagrantfileLanguage.build.VagrantfileStandaloneDistribution" file="VagrantfileStandaloneDistribution.xml" />
+</dependenciesRoot>
+

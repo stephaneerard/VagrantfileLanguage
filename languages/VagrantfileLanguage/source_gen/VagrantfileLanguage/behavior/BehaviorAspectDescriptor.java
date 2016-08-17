@@ -12,6 +12,7 @@ import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import java.util.Arrays;
 
 public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor {
+  private final BHDescriptor myVagrantfile__BehaviorDescriptor = new Vagrantfile__BehaviorDescriptor();
   private final BHDescriptor myMachineDeclaration__BehaviorDescriptor = new MachineDeclaration__BehaviorDescriptor();
   private final BHDescriptor myOptionsDeclaration__BehaviorDescriptor = new OptionsDeclaration__BehaviorDescriptor();
   private final BHDescriptor myVirtualBoxProviderDeclaration__BehaviorDescriptor = new VirtualBoxProviderDeclaration__BehaviorDescriptor();
@@ -32,23 +33,24 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
   private final long[] myConceptBehaviorIds;
 
   public BehaviorAspectDescriptor() {
-    myConceptBehaviorIds = new long[16];
-    myConceptBehaviorIds[0] = 0x5c5c548073d89208L;
-    myConceptBehaviorIds[1] = 0x5c5c548073d89233L;
-    myConceptBehaviorIds[2] = 0x5c5c548073d892a6L;
-    myConceptBehaviorIds[3] = 0x5c5c548073d892baL;
-    myConceptBehaviorIds[4] = 0x5c5c548073d892bbL;
-    myConceptBehaviorIds[5] = 0x5c5c548073d892bcL;
-    myConceptBehaviorIds[6] = 0x5c5c548073d8a2e7L;
-    myConceptBehaviorIds[7] = 0x5c5c548073d8a313L;
-    myConceptBehaviorIds[8] = 0x5c5c548073d8a31aL;
-    myConceptBehaviorIds[9] = 0x5c5c548073d9395cL;
-    myConceptBehaviorIds[10] = 0x5c5c548073d9395fL;
-    myConceptBehaviorIds[11] = 0x5c5c548073d93964L;
-    myConceptBehaviorIds[12] = 0x5c5c548073defe86L;
-    myConceptBehaviorIds[13] = 0x5c5c548073df5c4dL;
-    myConceptBehaviorIds[14] = 0x5c5c548073df9d38L;
-    myConceptBehaviorIds[15] = 0x5c5c548073e5a5ceL;
+    myConceptBehaviorIds = new long[17];
+    myConceptBehaviorIds[0] = 0x5c5c548073d891fcL;
+    myConceptBehaviorIds[1] = 0x5c5c548073d89208L;
+    myConceptBehaviorIds[2] = 0x5c5c548073d89233L;
+    myConceptBehaviorIds[3] = 0x5c5c548073d892a6L;
+    myConceptBehaviorIds[4] = 0x5c5c548073d892baL;
+    myConceptBehaviorIds[5] = 0x5c5c548073d892bbL;
+    myConceptBehaviorIds[6] = 0x5c5c548073d892bcL;
+    myConceptBehaviorIds[7] = 0x5c5c548073d8a2e7L;
+    myConceptBehaviorIds[8] = 0x5c5c548073d8a313L;
+    myConceptBehaviorIds[9] = 0x5c5c548073d8a31aL;
+    myConceptBehaviorIds[10] = 0x5c5c548073d9395cL;
+    myConceptBehaviorIds[11] = 0x5c5c548073d9395fL;
+    myConceptBehaviorIds[12] = 0x5c5c548073d93964L;
+    myConceptBehaviorIds[13] = 0x5c5c548073defe86L;
+    myConceptBehaviorIds[14] = 0x5c5c548073df5c4dL;
+    myConceptBehaviorIds[15] = 0x5c5c548073df9d38L;
+    myConceptBehaviorIds[16] = 0x5c5c548073e5a5ceL;
   }
 
   @Deprecated
@@ -63,36 +65,38 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
     int behaviorIndex = Arrays.binarySearch(myConceptBehaviorIds, conceptId.getIdValue());
     switch (behaviorIndex) {
       case 0:
-        return myMachineDeclaration__BehaviorDescriptor;
+        return myVagrantfile__BehaviorDescriptor;
       case 1:
-        return myOptionsDeclaration__BehaviorDescriptor;
+        return myMachineDeclaration__BehaviorDescriptor;
       case 2:
-        return myVirtualBoxProviderDeclaration__BehaviorDescriptor;
+        return myOptionsDeclaration__BehaviorDescriptor;
       case 3:
-        return myPublicNetworkInterfaceDeclaration__BehaviorDescriptor;
+        return myVirtualBoxProviderDeclaration__BehaviorDescriptor;
       case 4:
-        return myPrivateNetworkInterfaceDeclaration__BehaviorDescriptor;
+        return myPublicNetworkInterfaceDeclaration__BehaviorDescriptor;
       case 5:
-        return myPortForwardingNetworkInterfaceDeclaration__BehaviorDescriptor;
+        return myPrivateNetworkInterfaceDeclaration__BehaviorDescriptor;
       case 6:
-        return myVirtualBoxCustomizationDeclaration__BehaviorDescriptor;
+        return myPortForwardingNetworkInterfaceDeclaration__BehaviorDescriptor;
       case 7:
-        return myNameVirtualBoxCustomizationDeclaration__BehaviorDescriptor;
+        return myVirtualBoxCustomizationDeclaration__BehaviorDescriptor;
       case 8:
-        return myGroupsVirtualBoxCustomizationDeclaration__BehaviorDescriptor;
+        return myNameVirtualBoxCustomizationDeclaration__BehaviorDescriptor;
       case 9:
-        return myShellProvisioningDeclaration__BehaviorDescriptor;
+        return myGroupsVirtualBoxCustomizationDeclaration__BehaviorDescriptor;
       case 10:
-        return myInlineShellProvisioningDeclaration__BehaviorDescriptor;
+        return myShellProvisioningDeclaration__BehaviorDescriptor;
       case 11:
-        return myFileShellProvisioningDeclaration__BehaviorDescriptor;
+        return myInlineShellProvisioningDeclaration__BehaviorDescriptor;
       case 12:
-        return myNetworkInterfaceDeclaration__BehaviorDescriptor;
+        return myFileShellProvisioningDeclaration__BehaviorDescriptor;
       case 13:
-        return myProviderDeclaration__BehaviorDescriptor;
+        return myNetworkInterfaceDeclaration__BehaviorDescriptor;
       case 14:
-        return myProvisioningDeclaration__BehaviorDescriptor;
+        return myProviderDeclaration__BehaviorDescriptor;
       case 15:
+        return myProvisioningDeclaration__BehaviorDescriptor;
+      case 16:
         return myFileProvisioningDeclaration__BehaviorDescriptor;
       default:
         return null;

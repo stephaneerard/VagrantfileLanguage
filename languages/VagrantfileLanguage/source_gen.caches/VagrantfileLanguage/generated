@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-f77nubp665ybozzf1gkv3v7j4fb7on">
+<dependencies version="2" modelHash="-2a8ij9fp7qx9f8ugub8uurh6j1xnvaw">
   <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
   <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.generator.runtime(MPS.Core/)" />
@@ -24,7 +24,7 @@
   <dep model="r:c5811427-0a0d-4faf-b656-3498e7dd7650(VagrantfileLanguage.actions)" hash="e5k3e1tqmss381ty2ilfn60g5i4ie5n" />
   <dep model="r:c71b740e-a20d-4190-9688-0f8df932da4d(jetbrains.mps.baseLanguage.tuples.generator.template.main@generator)" hash="3ndi5oguf9ar8o0fntk8lv2vizkf203" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="exf8ta60n8p6ynrjiy6o6g4awd1t7t4" />
-  <dep model="r:f93e18a7-635f-4dbb-8750-1cab8ee9e831(VagrantfileLanguage.behavior)" hash="ce3czrz8v5cqqw47jo3ff95r0wrvqqc" />
+  <dep model="r:f93e18a7-635f-4dbb-8750-1cab8ee9e831(VagrantfileLanguage.behavior)" hash="-7bqpfuewutt66e74zzd9oei1g5nq326" />
   <common dependsOnNodes="true">
     <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />

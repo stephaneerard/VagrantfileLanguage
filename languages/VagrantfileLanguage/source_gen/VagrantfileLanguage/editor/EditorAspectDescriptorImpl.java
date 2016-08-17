@@ -57,6 +57,9 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       if (SConceptOperations.isExactly(SNodeOperations.asSConcept(cncpt), MetaAdapterFactory.getConcept(0x324207e1b3174582L, 0x8d4e0163a5a3cf3eL, 0xda82f5d88dbb231L, "VagrantfileLanguage.structure.SshDeclaration"))) {
         return Collections.<ConceptEditor>singletonList(new SshDeclaration_Editor());
       }
+      if (SConceptOperations.isExactly(SNodeOperations.asSConcept(cncpt), MetaAdapterFactory.getConcept(0x324207e1b3174582L, 0x8d4e0163a5a3cf3eL, 0x5c5c548073d891fcL, "VagrantfileLanguage.structure.Vagrantfile"))) {
+        return Collections.<ConceptEditor>singletonList(new Vagrantfile_Editor());
+      }
       if (SConceptOperations.isExactly(SNodeOperations.asSConcept(cncpt), MetaAdapterFactory.getConcept(0x324207e1b3174582L, 0x8d4e0163a5a3cf3eL, 0x5c5c548073d892a6L, "VagrantfileLanguage.structure.VirtualBoxProviderDeclaration"))) {
         return Collections.<ConceptEditor>singletonList(new VirtualBoxProviderDeclaration_Editor());
       }

@@ -7,8 +7,12 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.BehaviorRegistry;
 import jetbrains.mps.smodel.language.ConceptRegistry;
-import java.util.List;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
+import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
+import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
+import jetbrains.mps.core.aspects.behaviour.SModifiersImpl;
+import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
+import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
@@ -20,12 +24,15 @@ public final class MachineDeclaration__BehaviorDescriptor extends BaseBHDescript
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x324207e1b3174582L, 0x8d4e0163a5a3cf3eL, 0x5c5c548073d89208L, "VagrantfileLanguage.structure.MachineDeclaration");
   private static final BehaviorRegistry REGISTRY = ConceptRegistry.getInstance().getBehaviorRegistry();
 
+  public static final SMethod<Void> BO_up_id1nat2wFMT2E = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("BO_up").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1nat2wFMT2E").registry(REGISTRY).build();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(BO_up_id1nat2wFMT2E);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
+  /*package*/ static void BO_up_id1nat2wFMT2E(@NotNull SNode __thisNode__) {
+  }
 
   /*package*/ MachineDeclaration__BehaviorDescriptor() {
     super(REGISTRY);
@@ -43,6 +50,9 @@ public final class MachineDeclaration__BehaviorDescriptor extends BaseBHDescript
       throw new BHMethodNotFoundException(this, method);
     }
     switch (methodIndex) {
+      case 0:
+        BO_up_id1nat2wFMT2E(node);
+        return null;
       default:
         throw new BHMethodNotFoundException(this, method);
     }

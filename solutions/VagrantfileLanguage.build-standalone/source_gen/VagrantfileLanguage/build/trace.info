@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root nodeRef="r:7472c1f1-ed5e-41e5-a86f-999f6ccc0407(VagrantfileLanguage.build)/2552097950645518243">
+    <file name="VagrantfileStandalone.xml">
+      <unit id="2552097950645518243" at="1,0,434,10" name="VagrantfileLanguage.build.VagrantfileStandalone" />
+    </file>
+  </root>
+  <root nodeRef="r:7472c1f1-ed5e-41e5-a86f-999f6ccc0407(VagrantfileLanguage.build)/2552097950645518383">
+    <file name="VagrantfileStandaloneDistribution.xml">
+      <unit id="2552097950645518383" at="1,0,139,10" name="VagrantfileLanguage.build.VagrantfileStandaloneDistribution" />
+    </file>
+  </root>
+</debug-info>
+

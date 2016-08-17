@@ -7,6 +7,9 @@
       <modulePath path="$PROJECT_DIR$/languages/VagrantfileLanguage/VagrantfileLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/VagrantfileLanguage/runtime/VagrantfileLanguage.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/VagrantfileLanguage/sandbox/VagrantfileLanguage.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/VagrantfileLanguage.build-idea/VagrantfileLanguage.build-idea.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/VagrantfileLanguage.build-mps/VagrantfileLanguage.build-mps.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/VagrantfileLanguage.build-standalone/VagrantfileLanguage.build-standalone.msd" folder="" />
     </projectModules>
   </component>
 </project>

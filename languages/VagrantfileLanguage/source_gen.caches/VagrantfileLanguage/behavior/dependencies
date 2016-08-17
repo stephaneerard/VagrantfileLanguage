@@ -39,6 +39,7 @@
     <classNode dependClassName="VagrantfileLanguage.behavior.ProvisioningDeclaration__BehaviorDescriptor" />
     <classNode dependClassName="VagrantfileLanguage.behavior.PublicNetworkInterfaceDeclaration__BehaviorDescriptor" />
     <classNode dependClassName="VagrantfileLanguage.behavior.ShellProvisioningDeclaration__BehaviorDescriptor" />
+    <classNode dependClassName="VagrantfileLanguage.behavior.Vagrantfile__BehaviorDescriptor" />
     <classNode dependClassName="VagrantfileLanguage.behavior.VirtualBoxCustomizationDeclaration__BehaviorDescriptor" />
     <classNode dependClassName="VagrantfileLanguage.behavior.VirtualBoxProviderDeclaration__BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Deprecated" />
@@ -200,7 +201,9 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="VagrantfileLanguage.behavior.MachineDeclaration_Behavior" file="MachineDeclaration_Behavior.java">
+    <classNode dependClassName="VagrantfileLanguage.behavior.MachineDeclaration__BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="VagrantfileLanguage.behavior.MachineDeclaration_BehaviorDescriptor" file="MachineDeclaration_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
@@ -215,8 +218,13 @@
   <dependency className="VagrantfileLanguage.behavior.MachineDeclaration__BehaviorDescriptor" file="MachineDeclaration__BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.Void" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.AccessPrivileges" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.SMethodBuilder" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.SModifiersImpl" />
     <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException" />
     <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.BehaviorRegistry" />
     <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.SConstructor" />
@@ -596,6 +604,11 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="VagrantfileLanguage.behavior.Vagrantfile_Behavior" file="Vagrantfile_Behavior.java">
+    <classNode dependClassName="VagrantfileLanguage.behavior.Vagrantfile__BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
   <dependency className="VagrantfileLanguage.behavior.Vagrantfile_BehaviorDescriptor" file="Vagrantfile_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Override" />
@@ -607,6 +620,32 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="VagrantfileLanguage.behavior.Vagrantfile__BehaviorDescriptor" file="Vagrantfile__BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.Process" />
+    <classNode dependClassName="java.lang.Runtime" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.lang.Void" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.AccessPrivileges" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.SMethodBuilder" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.SModifiersImpl" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.BehaviorRegistry" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.SConstructor" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.SMethod" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
   <dependency className="VagrantfileLanguage.behavior.VirtualBoxCustomizationDeclaration_Behavior" file="VirtualBoxCustomizationDeclaration_Behavior.java">
     <classNode dependClassName="java.lang.Deprecated" />
