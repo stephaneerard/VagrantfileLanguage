@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="9,0,32,0" name="VagrantfileLanguage.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:8e40420f-6eb8-4f35-b67c-d3a0ca49683f(VagrantfileLanguage.constraints)/6655287260022889647">
+    <file name="Vagrantfile_Constraints.java">
+      <node id="6655287260022889647" at="21,36,22,98" concept="10" />
+      <node id="6655287260022889647" at="25,42,26,16" concept="6" />
+      <node id="6655287260022889647" at="29,120,30,55" concept="5" />
+      <node id="6655287260022889647" at="30,55,31,0" concept="7" />
+      <node id="6655287260022889647" at="32,51,33,66" concept="2" />
+      <node id="6655287260022889647" at="34,5,35,0" concept="7" />
+      <node id="6655287260022889647" at="35,0,36,18" concept="6" />
+      <node id="6655287260022889647" at="39,88,40,123" concept="5" />
+      <node id="6655287260022889647" at="43,40,44,20" concept="6" />
+      <node id="6655287260022889647" at="47,70,48,37" concept="5" />
+      <node id="6655287260022889647" at="48,37,49,80" concept="0" />
+      <node id="6655287260022891173" at="48,37,49,80" concept="6" />
+      <node id="6655287260022889647" at="51,7,52,22" concept="6" />
+      <node id="6655287260022889787" at="54,99,55,16" concept="6" />
+      <node id="6655287260022891816" at="57,55,58,43" concept="6" />
+      <node id="6655287260022889647" at="60,0,61,0" concept="8" trace="canBeRootBreakingPoint" />
+      <node id="6655287260022889647" at="21,0,24,0" concept="1" trace="Vagrantfile_Constraints#()V" />
+      <node id="6655287260022889647" at="31,0,34,5" concept="3" />
+      <node id="6655287260022889647" at="54,0,57,0" concept="9" trace="static_canBeARoot#(Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+      <node id="6655287260022891816" at="57,0,60,0" concept="9" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="6655287260022889647" at="24,0,28,0" concept="4" trace="hasOwnCanBeRootMethod#()Z" />
+      <node id="6655287260022889647" at="42,0,46,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="6655287260022889647" at="46,0,51,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6655287260022889647" at="28,0,38,0" concept="4" trace="canBeRoot#(Ljetbrains/mps/smodel/IOperationContext;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="6655287260022889647" at="40,123,51,7" concept="2" />
+      <node id="6655287260022889647" at="38,0,54,0" concept="4" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="6655287260022889647" at="21,36,22,98" />
+      <scope id="6655287260022889647" at="25,42,26,16" />
+      <scope id="6655287260022889647" at="32,51,33,66" />
+      <scope id="6655287260022889647" at="43,40,44,20" />
+      <scope id="6655287260022890946" at="48,37,49,80" />
+      <scope id="6655287260022889718" at="54,99,55,16" />
+      <scope id="6655287260022891816" at="57,55,58,43" />
+      <scope id="6655287260022889647" at="47,70,49,80">
+        <var name="propertyName" id="6655287260022889647" />
+      </scope>
+      <scope id="6655287260022889647" at="21,0,24,0" />
+      <scope id="6655287260022889647" at="54,0,57,0">
+        <var name="model" id="6655287260022889647" />
+        <var name="operationContext" id="6655287260022889647" />
+      </scope>
+      <scope id="6655287260022891816" at="57,0,60,0">
+        <var name="str" id="6655287260022891816" />
+      </scope>
+      <scope id="6655287260022889647" at="24,0,28,0" />
+      <scope id="6655287260022889647" at="42,0,46,0" />
+      <scope id="6655287260022889647" at="46,0,51,0">
+        <var name="node" id="6655287260022889647" />
+        <var name="propertyValue" id="6655287260022889647" />
+      </scope>
+      <scope id="6655287260022889647" at="29,120,36,18">
+        <var name="result" id="6655287260022889647" />
+      </scope>
+      <scope id="6655287260022889647" at="28,0,38,0">
+        <var name="checkingNodeContext" id="6655287260022889647" />
+        <var name="context" id="6655287260022889647" />
+        <var name="model" id="6655287260022889647" />
+      </scope>
+      <scope id="6655287260022889647" at="39,88,52,22">
+        <var name="properties" id="6655287260022889647" />
+      </scope>
+      <scope id="6655287260022889647" at="38,0,54,0" />
+      <unit id="6655287260022889647" at="41,119,51,5" name="VagrantfileLanguage.constraints.Vagrantfile_Constraints$1" />
+      <unit id="6655287260022889647" at="20,0,62,0" name="VagrantfileLanguage.constraints.Vagrantfile_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e40420f-6eb8-4f35-b67c-d3a0ca49683f(VagrantfileLanguage.constraints)/6655287260022901111">
+    <file name="MachineDeclaration_Constraints.java">
+      <node id="6655287260022901111" at="16,43,17,98" concept="10" />
+      <node id="6655287260022901111" at="20,88,21,123" concept="5" />
+      <node id="6655287260022901111" at="24,40,25,20" concept="6" />
+      <node id="6655287260022901111" at="28,70,29,41" concept="5" />
+      <node id="6655287260022901111" at="29,41,30,80" concept="0" />
+      <node id="6655287260022901342" at="29,41,30,80" concept="6" />
+      <node id="6655287260022901111" at="35,40,36,20" concept="6" />
+      <node id="6655287260022901111" at="39,70,40,37" concept="5" />
+      <node id="6655287260022901111" at="40,37,41,79" concept="0" />
+      <node id="6655287260023015960" at="40,37,41,79" concept="6" />
+      <node id="6655287260022901111" at="43,7,44,22" concept="6" />
+      <node id="6655287260022902243" at="46,55,47,43" concept="6" />
+      <node id="6655287260022901111" at="16,0,19,0" concept="1" trace="MachineDeclaration_Constraints#()V" />
+      <node id="6655287260022902243" at="46,0,49,0" concept="9" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="6655287260022901111" at="23,0,27,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="6655287260022901111" at="34,0,38,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="6655287260022901111" at="27,0,32,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6655287260022901111" at="38,0,43,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6655287260022901111" at="21,123,32,7" concept="2" />
+      <node id="6655287260022901111" at="32,7,43,7" concept="2" />
+      <node id="6655287260022901111" at="19,0,46,0" concept="4" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="6655287260022901111" at="16,43,17,98" />
+      <scope id="6655287260022901111" at="24,40,25,20" />
+      <scope id="6655287260022901115" at="29,41,30,80" />
+      <scope id="6655287260022901111" at="35,40,36,20" />
+      <scope id="6655287260023015891" at="40,37,41,79" />
+      <scope id="6655287260022902243" at="46,55,47,43" />
+      <scope id="6655287260022901111" at="28,70,30,80">
+        <var name="propertyName" id="6655287260022901111" />
+      </scope>
+      <scope id="6655287260022901111" at="39,70,41,79">
+        <var name="propertyName" id="6655287260022901111" />
+      </scope>
+      <scope id="6655287260022901111" at="16,0,19,0" />
+      <scope id="6655287260022902243" at="46,0,49,0">
+        <var name="str" id="6655287260022902243" />
+      </scope>
+      <scope id="6655287260022901111" at="23,0,27,0" />
+      <scope id="6655287260022901111" at="34,0,38,0" />
+      <scope id="6655287260022901111" at="27,0,32,0">
+        <var name="node" id="6655287260022901111" />
+        <var name="propertyValue" id="6655287260022901111" />
+      </scope>
+      <scope id="6655287260022901111" at="38,0,43,0">
+        <var name="node" id="6655287260022901111" />
+        <var name="propertyValue" id="6655287260022901111" />
+      </scope>
+      <scope id="6655287260022901111" at="20,88,44,22">
+        <var name="properties" id="6655287260022901111" />
+      </scope>
+      <scope id="6655287260022901111" at="19,0,46,0" />
+      <unit id="6655287260022901111" at="22,129,32,5" name="VagrantfileLanguage.constraints.MachineDeclaration_Constraints$1" />
+      <unit id="6655287260022901111" at="33,119,43,5" name="VagrantfileLanguage.constraints.MachineDeclaration_Constraints$2" />
+      <unit id="6655287260022901111" at="15,0,50,0" name="VagrantfileLanguage.constraints.MachineDeclaration_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e40420f-6eb8-4f35-b67c-d3a0ca49683f(VagrantfileLanguage.constraints)/6655287260022933382">
+    <file name="PortForwardingNetworkInterfaceDeclaration_Constraints.java">
+      <node id="6655287260022933382" at="16,66,17,98" concept="10" />
+      <node id="6655287260022933382" at="20,88,21,123" concept="5" />
+      <node id="6655287260022933382" at="24,40,25,20" concept="6" />
+      <node id="6655287260022933382" at="28,70,29,38" concept="5" />
+      <node id="6655287260022933382" at="29,38,30,80" concept="0" />
+      <node id="6655287260022933455" at="29,38,30,80" concept="6" />
+      <node id="6655287260022933382" at="35,40,36,20" concept="6" />
+      <node id="6655287260022933382" at="39,70,40,37" concept="5" />
+      <node id="6655287260022933382" at="40,37,41,80" concept="0" />
+      <node id="6655287260022934582" at="40,37,41,80" concept="6" />
+      <node id="6655287260022933382" at="43,7,44,22" concept="6" />
+      <node id="6655287260022934388" at="46,55,47,43" concept="6" />
+      <node id="6655287260022933382" at="16,0,19,0" concept="1" trace="PortForwardingNetworkInterfaceDeclaration_Constraints#()V" />
+      <node id="6655287260022934388" at="46,0,49,0" concept="9" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="6655287260022933382" at="23,0,27,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="6655287260022933382" at="34,0,38,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="6655287260022933382" at="27,0,32,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6655287260022933382" at="38,0,43,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6655287260022933382" at="21,123,32,7" concept="2" />
+      <node id="6655287260022933382" at="32,7,43,7" concept="2" />
+      <node id="6655287260022933382" at="19,0,46,0" concept="4" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="6655287260022933382" at="16,66,17,98" />
+      <scope id="6655287260022933382" at="24,40,25,20" />
+      <scope id="6655287260022933386" at="29,38,30,80" />
+      <scope id="6655287260022933382" at="35,40,36,20" />
+      <scope id="6655287260022934543" at="40,37,41,80" />
+      <scope id="6655287260022934388" at="46,55,47,43" />
+      <scope id="6655287260022933382" at="28,70,30,80">
+        <var name="propertyName" id="6655287260022933382" />
+      </scope>
+      <scope id="6655287260022933382" at="39,70,41,80">
+        <var name="propertyName" id="6655287260022933382" />
+      </scope>
+      <scope id="6655287260022933382" at="16,0,19,0" />
+      <scope id="6655287260022934388" at="46,0,49,0">
+        <var name="str" id="6655287260022934388" />
+      </scope>
+      <scope id="6655287260022933382" at="23,0,27,0" />
+      <scope id="6655287260022933382" at="34,0,38,0" />
+      <scope id="6655287260022933382" at="27,0,32,0">
+        <var name="node" id="6655287260022933382" />
+        <var name="propertyValue" id="6655287260022933382" />
+      </scope>
+      <scope id="6655287260022933382" at="38,0,43,0">
+        <var name="node" id="6655287260022933382" />
+        <var name="propertyValue" id="6655287260022933382" />
+      </scope>
+      <scope id="6655287260022933382" at="20,88,44,22">
+        <var name="properties" id="6655287260022933382" />
+      </scope>
+      <scope id="6655287260022933382" at="19,0,46,0" />
+      <unit id="6655287260022933382" at="22,129,32,5" name="VagrantfileLanguage.constraints.PortForwardingNetworkInterfaceDeclaration_Constraints$1" />
+      <unit id="6655287260022933382" at="33,129,43,5" name="VagrantfileLanguage.constraints.PortForwardingNetworkInterfaceDeclaration_Constraints$2" />
+      <unit id="6655287260022933382" at="15,0,50,0" name="VagrantfileLanguage.constraints.PortForwardingNetworkInterfaceDeclaration_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e40420f-6eb8-4f35-b67c-d3a0ca49683f(VagrantfileLanguage.constraints)/6655287260022935642">
+    <file name="BridgeDeclaration_Constraints.java">
+      <node id="6655287260022935642" at="16,42,17,98" concept="10" />
+      <node id="6655287260022935642" at="20,88,21,123" concept="5" />
+      <node id="6655287260022935642" at="24,40,25,20" concept="6" />
+      <node id="6655287260022935642" at="28,70,29,47" concept="5" />
+      <node id="6655287260022935642" at="29,47,30,80" concept="0" />
+      <node id="6655287260022935685" at="29,47,30,80" concept="6" />
+      <node id="6655287260022935642" at="32,7,33,22" concept="6" />
+      <node id="6655287260022936586" at="35,55,36,43" concept="6" />
+      <node id="6655287260022935642" at="16,0,19,0" concept="1" trace="BridgeDeclaration_Constraints#()V" />
+      <node id="6655287260022936586" at="35,0,38,0" concept="9" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="6655287260022935642" at="23,0,27,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="6655287260022935642" at="27,0,32,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6655287260022935642" at="21,123,32,7" concept="2" />
+      <node id="6655287260022935642" at="19,0,35,0" concept="4" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="6655287260022935642" at="16,42,17,98" />
+      <scope id="6655287260022935642" at="24,40,25,20" />
+      <scope id="6655287260022935646" at="29,47,30,80" />
+      <scope id="6655287260022936586" at="35,55,36,43" />
+      <scope id="6655287260022935642" at="28,70,30,80">
+        <var name="propertyName" id="6655287260022935642" />
+      </scope>
+      <scope id="6655287260022935642" at="16,0,19,0" />
+      <scope id="6655287260022936586" at="35,0,38,0">
+        <var name="str" id="6655287260022936586" />
+      </scope>
+      <scope id="6655287260022935642" at="23,0,27,0" />
+      <scope id="6655287260022935642" at="27,0,32,0">
+        <var name="node" id="6655287260022935642" />
+        <var name="propertyValue" id="6655287260022935642" />
+      </scope>
+      <scope id="6655287260022935642" at="20,88,33,22">
+        <var name="properties" id="6655287260022935642" />
+      </scope>
+      <scope id="6655287260022935642" at="19,0,35,0" />
+      <unit id="6655287260022935642" at="22,129,32,5" name="VagrantfileLanguage.constraints.BridgeDeclaration_Constraints$1" />
+      <unit id="6655287260022935642" at="15,0,39,0" name="VagrantfileLanguage.constraints.BridgeDeclaration_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e40420f-6eb8-4f35-b67c-d3a0ca49683f(VagrantfileLanguage.constraints)/6655287260022936693">
+    <file name="PublicNetworkInterfaceDeclaration_Constraints.java">
+      <node id="6655287260022936693" at="9,58,10,98" concept="10" />
+      <node id="6655287260022936693" at="9,0,12,0" concept="1" trace="PublicNetworkInterfaceDeclaration_Constraints#()V" />
+      <scope id="6655287260022936693" at="9,58,10,98" />
+      <scope id="6655287260022936693" at="9,0,12,0" />
+      <unit id="6655287260022936693" at="8,0,13,0" name="VagrantfileLanguage.constraints.PublicNetworkInterfaceDeclaration_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

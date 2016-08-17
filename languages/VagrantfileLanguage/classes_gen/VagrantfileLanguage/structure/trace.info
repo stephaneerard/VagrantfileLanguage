@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="13,0,136,0" name="VagrantfileLanguage.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)/6655287260022870672">
+    <file name="BOX_GUEST.java">
+      <node id="6655287260022870672" at="14,0,15,0" concept="2" trace="myName" />
+      <node id="6655287260022870672" at="15,27,16,18" concept="6" />
+      <node id="6655287260022870672" at="18,0,19,0" concept="2" trace="myValue" />
+      <node id="6655287260022870672" at="19,48,20,18" concept="1" />
+      <node id="6655287260022870672" at="20,18,21,20" concept="1" />
+      <node id="6655287260022870672" at="23,28,24,19" concept="6" />
+      <node id="6655287260022870672" at="26,36,27,19" concept="6" />
+      <node id="6655287260022870672" at="29,48,30,78" concept="5" />
+      <node id="6655287260022870672" at="30,78,31,60" concept="1" />
+      <node id="6655287260022870672" at="31,60,32,62" concept="1" />
+      <node id="6655287260022870672" at="32,62,33,61" concept="1" />
+      <node id="6655287260022870672" at="33,61,34,16" concept="6" />
+      <node id="6655287260022870672" at="36,40,37,27" concept="6" />
+      <node id="6655287260022870672" at="40,24,41,36" concept="6" />
+      <node id="6655287260022870672" at="43,59,44,29" concept="6" />
+      <node id="6655287260022870672" at="46,61,47,31" concept="6" />
+      <node id="6655287260022870672" at="49,60,50,30" concept="6" />
+      <node id="6655287260022870672" at="51,5,52,34" concept="6" />
+      <node id="6655287260022870672" at="15,0,18,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6655287260022870672" at="23,0,26,0" concept="4" trace="getValue#()Ljava/lang/String;" />
+      <node id="6655287260022870672" at="26,0,29,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6655287260022870672" at="36,0,39,0" concept="7" trace="getDefault#()LVagrantfileLanguage/structure/BOX_GUEST;" />
+      <node id="6655287260022870672" at="39,52,42,5" concept="3" />
+      <node id="6655287260022870672" at="42,5,45,5" concept="3" />
+      <node id="6655287260022870672" at="45,5,48,5" concept="3" />
+      <node id="6655287260022870672" at="48,5,51,5" concept="3" />
+      <node id="6655287260022870672" at="19,0,23,0" concept="0" trace="BOX_GUEST#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="6655287260022870672" at="29,0,36,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6655287260022870672" at="39,0,54,0" concept="7" trace="parseValue#(Ljava/lang/String;)LVagrantfileLanguage/structure/BOX_GUEST;" />
+      <scope id="6655287260022870672" at="15,27,16,18" />
+      <scope id="6655287260022870672" at="23,28,24,19" />
+      <scope id="6655287260022870672" at="26,36,27,19" />
+      <scope id="6655287260022870672" at="36,40,37,27" />
+      <scope id="6655287260022870672" at="40,24,41,36" />
+      <scope id="6655287260022870672" at="43,59,44,29" />
+      <scope id="6655287260022870672" at="46,61,47,31" />
+      <scope id="6655287260022870672" at="49,60,50,30" />
+      <scope id="6655287260022870672" at="19,48,21,20" />
+      <scope id="6655287260022870672" at="15,0,18,0" />
+      <scope id="6655287260022870672" at="23,0,26,0" />
+      <scope id="6655287260022870672" at="26,0,29,0" />
+      <scope id="6655287260022870672" at="36,0,39,0" />
+      <scope id="6655287260022870672" at="19,0,23,0">
+        <var name="name" id="6655287260022870672" />
+        <var name="value" id="6655287260022870672" />
+      </scope>
+      <scope id="6655287260022870672" at="29,48,34,16">
+        <var name="list" id="6655287260022870672" />
+      </scope>
+      <scope id="6655287260022870672" at="29,0,36,0" />
+      <scope id="6655287260022870672" at="39,52,52,34" />
+      <scope id="6655287260022870672" at="39,0,54,0">
+        <var name="value" id="6655287260022870672" />
+      </scope>
+      <unit id="6655287260022870672" at="9,0,55,0" name="VagrantfileLanguage.structure.BOX_GUEST" />
+    </file>
+    <file name="BOX_GUEST_PropertySupport.java">
+      <node id="6655287260022870672" at="11,24,12,18" concept="6" />
+      <node id="6655287260022870672" at="13,5,14,95" concept="5" />
+      <node id="6655287260022870672" at="15,33,16,44" concept="5" />
+      <node id="6655287260022870672" at="17,45,18,20" concept="6" />
+      <node id="6655287260022870672" at="20,5,21,17" concept="6" />
+      <node id="6655287260022870672" at="24,24,25,18" concept="6" />
+      <node id="6655287260022870672" at="26,5,27,95" concept="5" />
+      <node id="6655287260022870672" at="28,33,29,44" concept="5" />
+      <node id="6655287260022870672" at="30,45,31,43" concept="6" />
+      <node id="6655287260022870672" at="33,5,34,16" concept="6" />
+      <node id="6655287260022870672" at="36,49,37,53" concept="5" />
+      <node id="6655287260022870672" at="38,27,39,32" concept="6" />
+      <node id="6655287260022870672" at="40,5,41,14" concept="6" />
+      <node id="6655287260022870672" at="10,44,13,5" concept="3" />
+      <node id="6655287260022870672" at="16,44,19,7" concept="3" />
+      <node id="6655287260022870672" at="23,47,26,5" concept="3" />
+      <node id="6655287260022870672" at="29,44,32,7" concept="3" />
+      <node id="6655287260022870672" at="37,53,40,5" concept="3" />
+      <node id="6655287260022870672" at="14,95,20,5" concept="8" />
+      <node id="6655287260022870672" at="27,95,33,5" concept="8" />
+      <node id="6655287260022870672" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6655287260022870672" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6655287260022870672" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6655287260022870672" at="11,24,12,18" />
+      <scope id="6655287260022870672" at="17,45,18,20" />
+      <scope id="6655287260022870672" at="24,24,25,18" />
+      <scope id="6655287260022870672" at="30,45,31,43" />
+      <scope id="6655287260022870672" at="38,27,39,32" />
+      <scope id="6655287260022870672" at="15,33,19,7">
+        <var name="constant" id="6655287260022870672" />
+      </scope>
+      <scope id="6655287260022870672" at="28,33,32,7">
+        <var name="constant" id="6655287260022870672" />
+      </scope>
+      <scope id="6655287260022870672" at="36,49,41,14">
+        <var name="constant" id="6655287260022870672" />
+      </scope>
+      <scope id="6655287260022870672" at="36,0,43,0">
+        <var name="value" id="6655287260022870672" />
+      </scope>
+      <scope id="6655287260022870672" at="10,44,21,17">
+        <var name="constants" id="6655287260022870672" />
+      </scope>
+      <scope id="6655287260022870672" at="23,47,34,16">
+        <var name="constants" id="6655287260022870672" />
+      </scope>
+      <scope id="6655287260022870672" at="10,0,23,0">
+        <var name="value" id="6655287260022870672" />
+      </scope>
+      <scope id="6655287260022870672" at="23,0,36,0">
+        <var name="value" id="6655287260022870672" />
+      </scope>
+      <unit id="6655287260022870672" at="9,0,44,0" name="VagrantfileLanguage.structure.BOX_GUEST_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)/6655287260022870752">
+    <file name="PROTOCOL.java">
+      <node id="6655287260022870752" at="13,0,14,0" concept="2" trace="myName" />
+      <node id="6655287260022870752" at="14,27,15,18" concept="6" />
+      <node id="6655287260022870752" at="17,0,18,0" concept="2" trace="myValue" />
+      <node id="6655287260022870752" at="18,47,19,18" concept="1" />
+      <node id="6655287260022870752" at="19,18,20,20" concept="1" />
+      <node id="6655287260022870752" at="22,28,23,19" concept="6" />
+      <node id="6655287260022870752" at="25,36,26,19" concept="6" />
+      <node id="6655287260022870752" at="28,47,29,76" concept="5" />
+      <node id="6655287260022870752" at="29,76,30,57" concept="1" />
+      <node id="6655287260022870752" at="30,57,31,57" concept="1" />
+      <node id="6655287260022870752" at="31,57,32,16" concept="6" />
+      <node id="6655287260022870752" at="34,39,35,24" concept="6" />
+      <node id="6655287260022870752" at="38,24,39,35" concept="6" />
+      <node id="6655287260022870752" at="41,56,42,26" concept="6" />
+      <node id="6655287260022870752" at="44,56,45,26" concept="6" />
+      <node id="6655287260022870752" at="46,5,47,33" concept="6" />
+      <node id="6655287260022870752" at="14,0,17,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="6655287260022870752" at="22,0,25,0" concept="4" trace="getValue#()Ljava/lang/String;" />
+      <node id="6655287260022870752" at="25,0,28,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6655287260022870752" at="34,0,37,0" concept="7" trace="getDefault#()LVagrantfileLanguage/structure/PROTOCOL;" />
+      <node id="6655287260022870752" at="37,51,40,5" concept="3" />
+      <node id="6655287260022870752" at="40,5,43,5" concept="3" />
+      <node id="6655287260022870752" at="43,5,46,5" concept="3" />
+      <node id="6655287260022870752" at="18,0,22,0" concept="0" trace="PROTOCOL#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="6655287260022870752" at="28,0,34,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="6655287260022870752" at="37,0,49,0" concept="7" trace="parseValue#(Ljava/lang/String;)LVagrantfileLanguage/structure/PROTOCOL;" />
+      <scope id="6655287260022870752" at="14,27,15,18" />
+      <scope id="6655287260022870752" at="22,28,23,19" />
+      <scope id="6655287260022870752" at="25,36,26,19" />
+      <scope id="6655287260022870752" at="34,39,35,24" />
+      <scope id="6655287260022870752" at="38,24,39,35" />
+      <scope id="6655287260022870752" at="41,56,42,26" />
+      <scope id="6655287260022870752" at="44,56,45,26" />
+      <scope id="6655287260022870752" at="18,47,20,20" />
+      <scope id="6655287260022870752" at="14,0,17,0" />
+      <scope id="6655287260022870752" at="22,0,25,0" />
+      <scope id="6655287260022870752" at="25,0,28,0" />
+      <scope id="6655287260022870752" at="34,0,37,0" />
+      <scope id="6655287260022870752" at="18,0,22,0">
+        <var name="name" id="6655287260022870752" />
+        <var name="value" id="6655287260022870752" />
+      </scope>
+      <scope id="6655287260022870752" at="28,47,32,16">
+        <var name="list" id="6655287260022870752" />
+      </scope>
+      <scope id="6655287260022870752" at="28,0,34,0" />
+      <scope id="6655287260022870752" at="37,51,47,33" />
+      <scope id="6655287260022870752" at="37,0,49,0">
+        <var name="value" id="6655287260022870752" />
+      </scope>
+      <unit id="6655287260022870752" at="9,0,50,0" name="VagrantfileLanguage.structure.PROTOCOL" />
+    </file>
+    <file name="PROTOCOL_PropertySupport.java">
+      <node id="6655287260022870752" at="11,24,12,18" concept="6" />
+      <node id="6655287260022870752" at="13,5,14,93" concept="5" />
+      <node id="6655287260022870752" at="15,33,16,43" concept="5" />
+      <node id="6655287260022870752" at="17,45,18,20" concept="6" />
+      <node id="6655287260022870752" at="20,5,21,17" concept="6" />
+      <node id="6655287260022870752" at="24,24,25,18" concept="6" />
+      <node id="6655287260022870752" at="26,5,27,93" concept="5" />
+      <node id="6655287260022870752" at="28,33,29,43" concept="5" />
+      <node id="6655287260022870752" at="30,45,31,43" concept="6" />
+      <node id="6655287260022870752" at="33,5,34,16" concept="6" />
+      <node id="6655287260022870752" at="36,49,37,51" concept="5" />
+      <node id="6655287260022870752" at="38,27,39,32" concept="6" />
+      <node id="6655287260022870752" at="40,5,41,14" concept="6" />
+      <node id="6655287260022870752" at="10,44,13,5" concept="3" />
+      <node id="6655287260022870752" at="16,43,19,7" concept="3" />
+      <node id="6655287260022870752" at="23,47,26,5" concept="3" />
+      <node id="6655287260022870752" at="29,43,32,7" concept="3" />
+      <node id="6655287260022870752" at="37,51,40,5" concept="3" />
+      <node id="6655287260022870752" at="14,93,20,5" concept="8" />
+      <node id="6655287260022870752" at="27,93,33,5" concept="8" />
+      <node id="6655287260022870752" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6655287260022870752" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6655287260022870752" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6655287260022870752" at="11,24,12,18" />
+      <scope id="6655287260022870752" at="17,45,18,20" />
+      <scope id="6655287260022870752" at="24,24,25,18" />
+      <scope id="6655287260022870752" at="30,45,31,43" />
+      <scope id="6655287260022870752" at="38,27,39,32" />
+      <scope id="6655287260022870752" at="15,33,19,7">
+        <var name="constant" id="6655287260022870752" />
+      </scope>
+      <scope id="6655287260022870752" at="28,33,32,7">
+        <var name="constant" id="6655287260022870752" />
+      </scope>
+      <scope id="6655287260022870752" at="36,49,41,14">
+        <var name="constant" id="6655287260022870752" />
+      </scope>
+      <scope id="6655287260022870752" at="36,0,43,0">
+        <var name="value" id="6655287260022870752" />
+      </scope>
+      <scope id="6655287260022870752" at="10,44,21,17">
+        <var name="constants" id="6655287260022870752" />
+      </scope>
+      <scope id="6655287260022870752" at="23,47,34,16">
+        <var name="constants" id="6655287260022870752" />
+      </scope>
+      <scope id="6655287260022870752" at="10,0,23,0">
+        <var name="value" id="6655287260022870752" />
+      </scope>
+      <scope id="6655287260022870752" at="23,0,36,0">
+        <var name="value" id="6655287260022870752" />
+      </scope>
+      <unit id="6655287260022870752" at="9,0,44,0" name="VagrantfileLanguage.structure.PROTOCOL_PropertySupport" />
+    </file>
+  </root>
+</debug-info>
+

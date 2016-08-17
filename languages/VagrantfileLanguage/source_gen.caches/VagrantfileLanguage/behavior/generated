@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="ce3czrz8v5cqqw47jo3ff95r0wrvqqc">
+  <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+  <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+  <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
+  <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+  <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" hash="-a8e484rd9imtn088xa5huxrzutshd8z" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="ablv8pfswrhbw1rlmm7134a3n4snmlw" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="edv6457qhe381dcl4ioix6smpp8i4qc" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3i2fksyx0t02zh375cs47dlyeqa2gnb" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="7rnkisogkv9glziinitb1mcanz0rma9" />
+  <dep model="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" hash="-63v76fe6uwbnm9r42mf6xrypnmpyub2" />
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="dcmykzke1natadyl93xhpoxzxwwgwsa" />
+  <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" hash="c9jhi1xvfq7fl5qi8aklqbki6jibyu3" />
+  <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" hash="2pgya9h5poonf8zrj9axqz1ll0bvyl4" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-5xb7jypw7d0bhouyx3xmbfw2tz5ihja" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="exf8ta60n8p6ynrjiy6o6g4awd1t7t4" />
+  <common hash="-cf2pyy131kk9v85h4pvlnhyrh85tras" dependsOnNodes="true">
+    <dep root="6655287260022874880" />
+    <dep root="6655287260022874933" />
+    <dep root="6655287260022876043" />
+    <dep root="6655287260022979429" />
+    <dep root="6655287260023155830" />
+    <dep root="6655287260023158123" />
+    <dep root="6655287260023291551" />
+    <dep root="6655287260023291625" />
+    <dep root="6655287260023291697" />
+    <dep root="6655287260023315558" />
+    <dep root="6655287260023315599" />
+    <dep root="6655287260023332177" />
+    <dep root="6655287260023332218" />
+    <dep root="6655287260023332249" />
+    <dep root="6655287260023332306" />
+    <dep root="6655287260023740908" />
+    <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <file name="AbstractNetworkInterfaceDeclaration_BehaviorDescriptor.java" />
+    <file name="AbstractProviderDeclaration_BehaviorDescriptor.java" />
+    <file name="AbstractProvisioningDeclaration_BehaviorDescriptor.java" />
+    <file name="BehaviorAspectDescriptor.java" />
+    <file name="BridgeDeclaration_BehaviorDescriptor.java" />
+    <file name="FileProvisioningDeclaration_BehaviorDescriptor.java" />
+    <file name="FileShellProvisioningDeclaration_BehaviorDescriptor.java" />
+    <file name="GroupsVirtualBoxCustomizationDeclaration_BehaviorDescriptor.java" />
+    <file name="InlineShellProvisioningDeclaration_BehaviorDescriptor.java" />
+    <file name="IpDeclaration_BehaviorDescriptor.java" />
+    <file name="KeyValueVirtualBoxCustomizationDeclaration_BehaviorDescriptor.java" />
+    <file name="MachineDeclaration_BehaviorDescriptor.java" />
+    <file name="MemoryVirtualBoxCustomizationDeclaration_BehaviorDescriptor.java" />
+    <file name="NFSSharedFolderDeclaration_BehaviorDescriptor.java" />
+    <file name="NameVirtualBoxCustomizationDeclaration_BehaviorDescriptor.java" />
+    <file name="NetworkInterfaceDeclaration_BehaviorDescriptor.java" />
+    <file name="OptionBootTimeOutDeclaration_BehaviorDescriptor.java" />
+    <file name="OptionBoxCheckUpdateDeclaration_BehaviorDescriptor.java" />
+    <file name="OptionBoxDeclaration_BehaviorDescriptor.java" />
+    <file name="OptionBoxUrlDeclaration_BehaviorDescriptor.java" />
+    <file name="OptionGuestDeclaration_BehaviorDescriptor.java" />
+    <file name="OptionsDeclaration_BehaviorDescriptor.java" />
+    <file name="PortForwardingNetworkInterfaceDeclaration_BehaviorDescriptor.java" />
+    <file name="PrivateNetworkInterfaceDeclaration_BehaviorDescriptor.java" />
+    <file name="ProviderDeclaration_BehaviorDescriptor.java" />
+    <file name="ProvisioningDeclaration_BehaviorDescriptor.java" />
+    <file name="PublicNetworkInterfaceDeclaration_BehaviorDescriptor.java" />
+    <file name="RSyncSharedFolderDeclaration_BehaviorDescriptor.java" />
+    <file name="SMBSharedFolderDeclaration_BehaviorDescriptor.java" />
+    <file name="SharedFolderDeclaration_BehaviorDescriptor.java" />
+    <file name="ShellProvisioningDeclaration_BehaviorDescriptor.java" />
+    <file name="SshDeclaration_BehaviorDescriptor.java" />
+    <file name="Vagrantfile_BehaviorDescriptor.java" />
+    <file name="VirtualBoxCustomizationDeclaration_BehaviorDescriptor.java" />
+    <file name="VirtualBoxProviderDeclaration_BehaviorDescriptor.java" />
+    <file name="VirtualBoxSharedFolderDeclaration_BehaviorDescriptor.java" />
+  </common>
+  <source id="6655287260022874880" name="VirtualBoxCustomizationDeclaration_Behavior" hash="alpw4u9nv5tv1o62u1nutk3edbu8qhu">
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="VirtualBoxCustomizationDeclaration_Behavior.java" />
+    <file name="VirtualBoxCustomizationDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260022874933" name="GroupsVirtualBoxCustomizationDeclaration_Behavior" hash="-8a6nd7nl17qcd2bicuhrlfelieuazqa">
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="GroupsVirtualBoxCustomizationDeclaration_Behavior.java" />
+    <file name="GroupsVirtualBoxCustomizationDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260022876043" name="NameVirtualBoxCustomizationDeclaration_Behavior" hash="-6ex373b5xbkhawukbay4kp900djia2y">
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="NameVirtualBoxCustomizationDeclaration_Behavior.java" />
+    <file name="NameVirtualBoxCustomizationDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260022979429" name="PublicNetworkInterfaceDeclaration_Behavior" hash="eiusp6oh15mtj1g0gttwdsco56eadfm">
+    <dep root="6655287260023291551" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="PublicNetworkInterfaceDeclaration_Behavior.java" />
+    <file name="PublicNetworkInterfaceDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023155830" name="OptionsDeclaration_Behavior" hash="-cbhhhkcl5zksb7ix150abcriywh872v">
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="OptionsDeclaration_Behavior.java" />
+    <file name="OptionsDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023158123" name="MachineDeclaration_Behavior" hash="-333k3ovf42zabv7r6b5skhmdwht7iba">
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="MachineDeclaration_Behavior.java" />
+    <file name="MachineDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023291551" name="NetworkInterfaceDeclaration_Behavior" hash="d4lvlduwb3dondij6kgme8rwo4d2w91">
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="NetworkInterfaceDeclaration_Behavior.java" />
+    <file name="NetworkInterfaceDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023291625" name="PortForwardingNetworkInterfaceDeclaration_Behavior" hash="crr1kuyjl8iahcpobj0n3xrbqxkddwv">
+    <dep root="6655287260023291551" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="PortForwardingNetworkInterfaceDeclaration_Behavior.java" />
+    <file name="PortForwardingNetworkInterfaceDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023291697" name="PrivateNetworkInterfaceDeclaration_Behavior" hash="-92b0g7urrmfr4w2qidu5ja48ue0728j">
+    <dep root="6655287260023291551" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="PrivateNetworkInterfaceDeclaration_Behavior.java" />
+    <file name="PrivateNetworkInterfaceDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023315558" name="ProviderDeclaration_Behavior" hash="-3qioy3d9mi529es4kexwu905lsw908i">
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="ProviderDeclaration_Behavior.java" />
+    <file name="ProviderDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023315599" name="VirtualBoxProviderDeclaration_Behavior" hash="-1mx4n38jttc4onloi4xp7twg0edt56k">
+    <dep root="6655287260023315558" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="VirtualBoxProviderDeclaration_Behavior.java" />
+    <file name="VirtualBoxProviderDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023332177" name="ProvisioningDeclaration_Behavior" hash="1ghoq80iwrgpe0y4i6ei3ng74lcdjyw">
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="ProvisioningDeclaration_Behavior.java" />
+    <file name="ProvisioningDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023332218" name="InlineShellProvisioningDeclaration_Behavior" hash="-bhuipxwbg0uiluwdhyezd0f7fraiv1c">
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="InlineShellProvisioningDeclaration_Behavior.java" />
+    <file name="InlineShellProvisioningDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023332249" name="FileShellProvisioningDeclaration_Behavior" hash="-2owplvy8fsje6ug1ockrqzukmp7cba1">
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="FileShellProvisioningDeclaration_Behavior.java" />
+    <file name="FileShellProvisioningDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023332306" name="ShellProvisioningDeclaration_Behavior" hash="drjcedia67jw30ig1i8zpo2ssu0vs21">
+    <dep root="6655287260023332177" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="ShellProvisioningDeclaration_Behavior.java" />
+    <file name="ShellProvisioningDeclaration__BehaviorDescriptor.java" />
+  </source>
+  <source id="6655287260023740908" name="FileProvisioningDeclaration_Behavior" hash="-5s6m4fph8shfn64g58ggm85vuk3ueo6">
+    <dep root="6655287260023332177" />
+    <dep model="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:8eb24361-1291-4e87-997a-a15ffba92c4c(VagrantfileLanguage.structure)" />
+    <file name="FileProvisioningDeclaration_Behavior.java" />
+    <file name="FileProvisioningDeclaration__BehaviorDescriptor.java" />
+  </source>
+</dependencies>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="VagrantfileLanguage.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:38126acb-a2da-4987-b6ea-e6104125f1b9(VagrantfileLanguage.typesystem)/6655287260022936752">
+    <file name="check_PublicNetworkInterfaceDeclaration_NonTypesystemRule.java">
+      <node id="6655287260022936752" at="18,50,19,171" concept="3" />
+      <node id="6655287260022936752" at="21,68,22,102" concept="0" />
+      <node id="6655287260022936752" at="21,68,22,102" concept="3" />
+      <node id="6655287260022936752" at="24,30,25,17" concept="3" />
+      <node id="6655287260022936752" at="14,0,16,0" concept="1" trace="check_PublicNetworkInterfaceDeclaration_NonTypesystemRule#()V" />
+      <node id="6655287260022936752" at="16,0,18,0" concept="2" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="6655287260022936752" at="18,0,21,0" concept="2" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6655287260022936752" at="21,0,24,0" concept="2" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6655287260022936752" at="24,0,27,0" concept="2" trace="overrides#()Z" />
+      <scope id="6655287260022936752" at="14,70,14,70" />
+      <scope id="6655287260022936753" at="16,146,16,146" />
+      <scope id="6655287260022936752" at="18,50,19,171" />
+      <scope id="6655287260022936752" at="21,68,22,102" />
+      <scope id="6655287260022936752" at="24,30,25,17" />
+      <scope id="6655287260022936752" at="14,0,16,0" />
+      <scope id="6655287260022936752" at="16,0,18,0">
+        <var name="publicNetworkInterfaceDeclaration" id="6655287260022936752" />
+        <var name="status" id="6655287260022936752" />
+        <var name="typeCheckingContext" id="6655287260022936752" />
+      </scope>
+      <scope id="6655287260022936752" at="18,0,21,0" />
+      <scope id="6655287260022936752" at="21,0,24,0">
+        <var name="argument" id="6655287260022936752" />
+      </scope>
+      <scope id="6655287260022936752" at="24,0,27,0" />
+      <unit id="6655287260022936752" at="13,0,28,0" name="VagrantfileLanguage.typesystem.check_PublicNetworkInterfaceDeclaration_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+

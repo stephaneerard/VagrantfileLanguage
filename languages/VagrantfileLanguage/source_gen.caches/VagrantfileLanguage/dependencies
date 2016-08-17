@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="VagrantfileLanguage.Language" file="Language.java">
+    <classNode dependClassName="VagrantfileLanguage.behavior.BehaviorAspectDescriptor" />
+    <classNode dependClassName="VagrantfileLanguage.constraints.ConstraintsAspectDescriptor" />
+    <classNode dependClassName="VagrantfileLanguage.editor.EditorAspectDescriptorImpl" />
+    <classNode dependClassName="VagrantfileLanguage.intentions.IntentionsDescriptor" />
+    <classNode dependClassName="VagrantfileLanguage.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="VagrantfileLanguage.textGen.TextGenAspectDescriptor" />
+    <classNode dependClassName="VagrantfileLanguage.typesystem.TypesystemDescriptor" />
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.UUID" />
+    <classNode dependClassName="jetbrains.mps.actions.descriptor.BaseActionAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateModule" />
+    <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateUtil" />
+    <classNode dependClassName="jetbrains.mps.intentions.IntentionAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor" />
+    <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.ActionAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenAspectDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
+  </dependency>
+</dependenciesRoot>
+

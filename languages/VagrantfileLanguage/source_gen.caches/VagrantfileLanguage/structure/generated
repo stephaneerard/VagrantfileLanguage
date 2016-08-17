@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="2pgya9h5poonf8zrj9axqz1ll0bvyl4">
+  <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+  <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="ablv8pfswrhbw1rlmm7134a3n4snmlw" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="edv6457qhe381dcl4ioix6smpp8i4qc" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3i2fksyx0t02zh375cs47dlyeqa2gnb" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="7rnkisogkv9glziinitb1mcanz0rma9" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-5xb7jypw7d0bhouyx3xmbfw2tz5ihja" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="exf8ta60n8p6ynrjiy6o6g4awd1t7t4" />
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-a9qnmv9xpy8bi0sm6iwrptmrospabf2" />
+  <common hash="nlmaszz3c02paz9a763i4hdwp9m4uq" dependsOnNodes="true">
+    <dep root="6655287260022870524" />
+    <dep root="6655287260022870536" />
+    <dep root="6655287260022870579" />
+    <dep root="6655287260022870656" />
+    <dep root="6655287260022870660" />
+    <dep root="6655287260022870664" />
+    <dep root="6655287260022870668" />
+    <dep root="6655287260022870672" />
+    <dep root="6655287260022870686" />
+    <dep root="6655287260022870690" />
+    <dep root="6655287260022870694" />
+    <dep root="6655287260022870710" />
+    <dep root="6655287260022870714" />
+    <dep root="6655287260022870715" />
+    <dep root="6655287260022870716" />
+    <dep root="6655287260022870752" />
+    <dep root="6655287260022870759" />
+    <dep root="6655287260022870763" />
+    <dep root="6655287260022870764" />
+    <dep root="6655287260022870765" />
+    <dep root="6655287260022870766" />
+    <dep root="6655287260022870775" />
+    <dep root="6655287260022874855" />
+    <dep root="6655287260022874899" />
+    <dep root="6655287260022874906" />
+    <dep root="6655287260022876809" />
+    <dep root="6655287260022876812" />
+    <dep root="6655287260022913372" />
+    <dep root="6655287260022913375" />
+    <dep root="6655287260022913380" />
+    <dep root="6655287260022919618" />
+    <dep root="6655287260022919629" />
+    <dep root="6655287260023291526" />
+    <dep root="6655287260023315533" />
+    <dep root="6655287260023332152" />
+    <dep root="6655287260023727566" />
+    <dep root="984088597355016753" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="6655287260022870524" name="Vagrantfile" hash="cnb09re1r43c81ed95v2thqqmyrmgx2" />
+  <source id="6655287260022870536" name="MachineDeclaration" hash="-dhbc4kwg097umk5szhmyytwmxamulsx" />
+  <source id="6655287260022870579" name="OptionsDeclaration" hash="dbqhsswmjno7620i9sebki46m0npndo" />
+  <source id="6655287260022870656" name="OptionBoxDeclaration" hash="-557303goe7eps7bec7khhfa2fo4t9gv" />
+  <source id="6655287260022870660" name="OptionBoxUrlDeclaration" hash="9vt69p5b4ypjf0mlrwvyncuwe3c47ti" />
+  <source id="6655287260022870664" name="OptionBoxCheckUpdateDeclaration" hash="-470hb3ivkdnquhx3mz7yfd8x0oeq3gu" />
+  <source id="6655287260022870668" name="OptionGuestDeclaration" hash="-cg0ravbs8ltu91k8mlx7ratvczws5mh" />
+  <source id="6655287260022870672" name="BOX_GUEST" hash="-az8rxr1ve1m72cawrpefqq9f8ux2xv0">
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="BOX_GUEST.java" />
+    <file name="BOX_GUEST_PropertySupport.java" />
+  </source>
+  <source id="6655287260022870686" name="OptionBootTimeOutDeclaration" hash="-9yv9cxwexpvo4cq7mju6j1mz2lmsdcr" />
+  <source id="6655287260022870690" name="AbstractProviderDeclaration" hash="-5zq84dj0u76i8n1lfobs5y5j4uvxean" />
+  <source id="6655287260022870694" name="VirtualBoxProviderDeclaration" hash="-3jbtqtdo1jka5t5wr605ib3ekk84swp" />
+  <source id="6655287260022870710" name="AbstractNetworkInterfaceDeclaration" hash="-2ajskmzo4r3i8hqqiipbhuq6ut5cwci" />
+  <source id="6655287260022870714" name="PublicNetworkInterfaceDeclaration" hash="ei4etr8mmhwc5a0q89ff0n6hqkqc91c" />
+  <source id="6655287260022870715" name="PrivateNetworkInterfaceDeclaration" hash="dfg7qi9bfves5pz2iqdtv5hj784xu2k" />
+  <source id="6655287260022870716" name="PortForwardingNetworkInterfaceDeclaration" hash="1sy0i4vzf4cj5wztif2igufijni05w1" />
+  <source id="6655287260022870752" name="PROTOCOL" hash="-6jvee7wawovseoq6ssi4esysj35h4uy">
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="PROTOCOL.java" />
+    <file name="PROTOCOL_PropertySupport.java" />
+  </source>
+  <source id="6655287260022870759" name="SharedFolderDeclaration" hash="1e40zmw4r5pbcn6l3hnwb8ny0fu421b" />
+  <source id="6655287260022870763" name="RSyncSharedFolderDeclaration" hash="b9tt1p4zmjmmhtk1n2s671ai38d325n" />
+  <source id="6655287260022870764" name="NFSSharedFolderDeclaration" hash="961lxdzs5oa2d1ztw1r2tr0vmx4270s" />
+  <source id="6655287260022870765" name="SMBSharedFolderDeclaration" hash="-c5uft17wmjricayshutjt8bhobs2ysh" />
+  <source id="6655287260022870766" name="VirtualBoxSharedFolderDeclaration" hash="-24zoxcyrqg6oc7zod1h0i6t6bslomqh" />
+  <source id="6655287260022870775" name="AbstractProvisioningDeclaration" hash="-bzyk1pu4hm7bj10xb9w34jwwz59dcux" />
+  <source id="6655287260022874855" name="VirtualBoxCustomizationDeclaration" hash="-eelci73p91fcyuchstgxwi6ei1arbz6" />
+  <source id="6655287260022874899" name="NameVirtualBoxCustomizationDeclaration" hash="-3mwtgrs0o4taz7w8pxecporz8qwvib7" />
+  <source id="6655287260022874906" name="GroupsVirtualBoxCustomizationDeclaration" hash="-7jkmyunpzryp3zln46hnopos462igmr" />
+  <source id="6655287260022876809" name="MemoryVirtualBoxCustomizationDeclaration" hash="-3yd8xcbv6wurpmga5th8oqxdm13t4hn" />
+  <source id="6655287260022876812" name="KeyValueVirtualBoxCustomizationDeclaration" hash="6ktg5a6s5y34qisgeztrmhll6rvt7ee" />
+  <source id="6655287260022913372" name="ShellProvisioningDeclaration" hash="ea6k1lf527sv3rd5q1f5dbeb0o0eb9e" />
+  <source id="6655287260022913375" name="InlineShellProvisioningDeclaration" hash="86r08xndfusz2km0bhfhirgk7o8hr01" />
+  <source id="6655287260022913380" name="FileShellProvisioningDeclaration" hash="8yfyj19u58wg56tsnzjcund76dqub1x" />
+  <source id="6655287260022919618" name="IpDeclaration" hash="2xcidu2hpn5kite45nvgi4675egxu4j" />
+  <source id="6655287260022919629" name="BridgeDeclaration" hash="-8ynz0pqhz84orccekw1i4txobjy2u13" />
+  <source id="6655287260023291526" name="NetworkInterfaceDeclaration" hash="6qzgbclgr4kbzpfhcp45v9zu3fnrr2v" />
+  <source id="6655287260023315533" name="ProviderDeclaration" hash="di1o1t2xcan282mbdflghu8q5056w9f" />
+  <source id="6655287260023332152" name="ProvisioningDeclaration" hash="dmqt10skfspthgla8d57bzf2ugd7ebe" />
+  <source id="6655287260023727566" name="FileProvisioningDeclaration" hash="cr9iwl2d2qra8jezji2dwl8pquqtbqx" />
+  <source id="984088597355016753" name="SshDeclaration" hash="2ucwon4kpkjqow6fd58x4z2og0z9ios" />
+</dependencies>
+

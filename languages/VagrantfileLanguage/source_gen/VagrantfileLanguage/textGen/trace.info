@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="15,0,87,0" name="VagrantfileLanguage.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260022996606">
+    <file name="MachineDeclaration_TextGen.java">
+      <node id="6655287260022996606" at="20,54,21,55" concept="4" />
+      <node id="6655287260022996606" at="21,55,22,38" concept="0" />
+      <node id="6655287260022996606" at="22,38,23,183" concept="0" />
+      <node id="6655287260022996606" at="23,183,24,26" concept="0" />
+      <node id="6655287260022996606" at="24,26,25,183" concept="0" />
+      <node id="6655287260022996606" at="25,183,26,20" concept="0" />
+      <node id="6655287260022996606" at="26,20,27,18" concept="0" />
+      <node id="6655287260022996606" at="27,18,28,18" concept="0" />
+      <node id="6655287260023043714" at="28,18,29,0" concept="6" />
+      <node id="6655287260022996606" at="29,0,30,44" concept="0" />
+      <node id="6655287260022996606" at="30,44,31,17" concept="0" />
+      <node id="6655287260022996606" at="31,17,32,183" concept="0" />
+      <node id="6655287260022996606" at="32,183,33,36" concept="0" />
+      <node id="6655287260022996606" at="33,36,34,197" concept="0" />
+      <node id="6655287260022996606" at="34,197,35,21" concept="0" />
+      <node id="6655287260022996606" at="35,21,36,18" concept="0" />
+      <node id="6655287260022996606" at="36,18,37,203" concept="0" />
+      <node id="6655287260022996606" at="37,203,38,18" concept="0" />
+      <node id="6655287260023230664" at="38,18,39,0" concept="6" />
+      <node id="6655287260023276836" at="39,0,40,0" concept="6" />
+      <node id="6655287260023286602" at="42,49,43,0" concept="6" />
+      <node id="6655287260023286439" at="43,0,44,21" concept="0" />
+      <node id="6655287260023286439" at="44,21,45,187" concept="0" />
+      <node id="6655287260023286439" at="45,187,46,37" concept="0" />
+      <node id="6655287260023286439" at="46,37,47,119" concept="0" />
+      <node id="6655287260023286439" at="47,119,48,25" concept="0" />
+      <node id="6655287260023286439" at="48,25,49,41" concept="0" />
+      <node id="6655287260023286439" at="49,41,50,22" concept="0" />
+      <node id="6655287260023286759" at="50,22,51,0" concept="6" />
+      <node id="6655287260023303341" at="55,45,56,0" concept="6" />
+      <node id="6655287260023303340" at="56,0,57,21" concept="0" />
+      <node id="6655287260023303340" at="57,21,58,187" concept="0" />
+      <node id="6655287260023303340" at="58,187,59,40" concept="0" />
+      <node id="6655287260023303340" at="59,40,60,37" concept="0" />
+      <node id="6655287260023303340" at="60,37,61,22" concept="0" />
+      <node id="6655287260023303357" at="61,22,62,0" concept="6" />
+      <node id="6655287260023309419" at="64,7,65,0" concept="6" />
+      <node id="6655287260023312018" at="67,41,68,0" concept="6" />
+      <node id="6655287260023312017" at="68,0,69,21" concept="0" />
+      <node id="6655287260023312017" at="69,21,70,187" concept="0" />
+      <node id="6655287260023312017" at="70,187,71,38" concept="0" />
+      <node id="6655287260023312017" at="71,38,72,103" concept="0" />
+      <node id="6655287260023312017" at="72,103,73,30" concept="0" />
+      <node id="6655287260023312017" at="73,30,74,103" concept="0" />
+      <node id="6655287260023312017" at="74,103,75,24" concept="0" />
+      <node id="6655287260023312017" at="75,24,76,22" concept="0" />
+      <node id="6655287260023312017" at="76,22,77,33" concept="0" />
+      <node id="6655287260023312017" at="77,33,78,22" concept="0" />
+      <node id="6655287260023312017" at="78,22,79,21" concept="0" />
+      <node id="6655287260023312017" at="79,21,80,26" concept="0" />
+      <node id="6655287260023312017" at="80,26,81,22" concept="0" />
+      <node id="6655287260023312017" at="81,22,82,22" concept="0" />
+      <node id="6655287260023312034" at="82,22,83,0" concept="6" />
+      <node id="6655287260023312037" at="85,7,86,0" concept="6" />
+      <node id="6655287260023327377" at="88,45,89,0" concept="6" />
+      <node id="6655287260023327376" at="89,0,90,21" concept="0" />
+      <node id="6655287260023327376" at="90,21,91,187" concept="0" />
+      <node id="6655287260023327376" at="91,187,92,39" concept="0" />
+      <node id="6655287260023327376" at="92,39,93,111" concept="0" />
+      <node id="6655287260023327376" at="93,111,94,25" concept="0" />
+      <node id="6655287260023327376" at="94,25,95,37" concept="0" />
+      <node id="6655287260023327376" at="95,37,96,22" concept="0" />
+      <node id="6655287260023327407" at="96,22,97,0" concept="6" />
+      <node id="984088597355016902" at="99,7,100,0" concept="6" />
+      <node id="6655287260022996606" at="100,0,101,17" concept="0" />
+      <node id="6655287260022996606" at="101,17,102,198" concept="0" />
+      <node id="6655287260023310183" at="102,198,103,0" concept="6" />
+      <node id="6655287260022996606" at="103,0,104,44" concept="0" />
+      <node id="6655287260023129119" at="104,44,105,18" concept="0" />
+      <node id="6655287260022996606" at="105,18,106,17" concept="0" />
+      <node id="6655287260022996606" at="106,17,107,22" concept="0" />
+      <node id="6655287260022996606" at="107,22,108,18" concept="0" />
+      <node id="6655287260022996606" at="108,18,109,18" concept="0" />
+      <node id="6655287260023303339" at="55,0,64,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6655287260023286438" at="42,0,53,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6655287260023303333" at="53,7,64,7" concept="0" />
+      <node id="6655287260023327375" at="88,0,99,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6655287260023278229" at="40,0,53,7" concept="0" />
+      <node id="6655287260023327369" at="86,0,99,7" concept="0" />
+      <node id="6655287260023312016" at="67,0,85,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6655287260023312010" at="65,0,85,7" concept="0" />
+      <node id="6655287260022996606" at="19,0,111,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023303340" at="55,45,62,0" />
+      <scope id="6655287260023286439" at="42,49,51,0" />
+      <scope id="6655287260023303339" at="55,0,64,0">
+        <var name="sharedFolder" id="6655287260023303339" />
+      </scope>
+      <scope id="6655287260023327376" at="88,45,97,0" />
+      <scope id="6655287260023286438" at="42,0,53,0">
+        <var name="networkInterface" id="6655287260023286438" />
+      </scope>
+      <scope id="6655287260023327375" at="88,0,99,0">
+        <var name="provisioning" id="6655287260023327375" />
+      </scope>
+      <scope id="6655287260023312017" at="67,41,83,0" />
+      <scope id="6655287260023312016" at="67,0,85,0">
+        <var name="provider" id="6655287260023312016" />
+      </scope>
+      <scope id="6655287260022996606" at="20,54,109,18">
+        <var name="tgs" id="6655287260022996606" />
+      </scope>
+      <scope id="6655287260022996606" at="19,0,111,0">
+        <var name="ctx" id="6655287260022996606" />
+      </scope>
+      <unit id="6655287260023303339" at="54,231,64,5" name="VagrantfileLanguage.textGen.MachineDeclaration_TextGen$2" />
+      <unit id="6655287260023286438" at="41,235,53,5" name="VagrantfileLanguage.textGen.MachineDeclaration_TextGen$1" />
+      <unit id="6655287260023327375" at="87,230,99,5" name="VagrantfileLanguage.textGen.MachineDeclaration_TextGen$4" />
+      <unit id="6655287260023312016" at="66,227,85,5" name="VagrantfileLanguage.textGen.MachineDeclaration_TextGen$3" />
+      <unit id="6655287260022996606" at="18,0,112,0" name="VagrantfileLanguage.textGen.MachineDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260022996700">
+    <file name="Vagrantfile_TextGen.java">
+      <node id="6655287260022996700" at="16,54,17,55" concept="4" />
+      <node id="6655287260022996700" at="17,55,18,51" concept="0" />
+      <node id="6655287260022996700" at="18,51,19,18" concept="0" />
+      <node id="6655287260022996700" at="19,18,20,18" concept="0" />
+      <node id="6655287260023001673" at="20,18,21,0" concept="6" />
+      <node id="6655287260022996700" at="21,0,22,44" concept="0" />
+      <node id="6655287260023011760" at="24,40,25,21" concept="0" />
+      <node id="6655287260023011760" at="25,21,26,32" concept="0" />
+      <node id="6655287260023011760" at="26,32,27,22" concept="0" />
+      <node id="6655287260022996700" at="29,7,30,44" concept="0" />
+      <node id="6655287260022998276" at="30,44,31,0" concept="6" />
+      <node id="6655287260022996700" at="31,0,32,22" concept="0" />
+      <node id="6655287260022996700" at="32,22,33,18" concept="0" />
+      <node id="6655287260022996700" at="33,18,34,18" concept="0" />
+      <node id="6655287260023011759" at="24,0,29,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6655287260023003057" at="22,44,29,7" concept="0" />
+      <node id="6655287260022996700" at="15,0,36,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023011760" at="24,40,27,22" />
+      <scope id="6655287260023011759" at="24,0,29,0">
+        <var name="machine" id="6655287260023011759" />
+      </scope>
+      <scope id="6655287260022996700" at="16,54,34,18">
+        <var name="tgs" id="6655287260022996700" />
+      </scope>
+      <scope id="6655287260022996700" at="15,0,36,0">
+        <var name="ctx" id="6655287260022996700" />
+      </scope>
+      <unit id="6655287260023011759" at="23,226,29,5" name="VagrantfileLanguage.textGen.Vagrantfile_TextGen$1" />
+      <unit id="6655287260022996700" at="14,0,37,0" name="VagrantfileLanguage.textGen.Vagrantfile_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260023153450">
+    <file name="OptionsDeclaration_TextGen.java">
+      <node id="6655287260023153450" at="14,54,15,55" concept="4" />
+      <node id="6655287260023153466" at="16,199,17,19" concept="0" />
+      <node id="6655287260023153466" at="17,19,18,344" concept="0" />
+      <node id="6655287260023153466" at="18,344,19,33" concept="0" />
+      <node id="6655287260023153466" at="19,33,20,352" concept="0" />
+      <node id="6655287260023153466" at="20,352,21,23" concept="0" />
+      <node id="6655287260023153466" at="21,23,22,20" concept="0" />
+      <node id="6655287260023166314" at="24,202,25,19" concept="0" />
+      <node id="6655287260023166314" at="25,19,26,344" concept="0" />
+      <node id="6655287260023166314" at="26,344,27,37" concept="0" />
+      <node id="6655287260023166314" at="27,37,28,354" concept="0" />
+      <node id="6655287260023166314" at="28,354,29,23" concept="0" />
+      <node id="6655287260023166314" at="29,23,30,20" concept="0" />
+      <node id="6655287260023165463" at="32,210,33,19" concept="0" />
+      <node id="6655287260023165463" at="33,19,34,344" concept="0" />
+      <node id="6655287260023165463" at="34,344,35,44" concept="0" />
+      <node id="6655287260023165463" at="35,44,36,394" concept="0" />
+      <node id="6655287260023165463" at="36,394,37,20" concept="0" />
+      <node id="6655287260023170468" at="39,207,40,19" concept="0" />
+      <node id="6655287260023170468" at="40,19,41,344" concept="0" />
+      <node id="6655287260023170468" at="41,344,42,40" concept="0" />
+      <node id="6655287260023170468" at="42,40,43,368" concept="0" />
+      <node id="6655287260023170468" at="43,368,44,20" concept="0" />
+      <node id="6655287260023175865" at="46,201,47,19" concept="0" />
+      <node id="6655287260023175865" at="47,19,48,344" concept="0" />
+      <node id="6655287260023175865" at="48,344,49,35" concept="0" />
+      <node id="6655287260023175865" at="49,35,50,381" concept="0" />
+      <node id="6655287260023175865" at="50,381,51,23" concept="0" />
+      <node id="6655287260023175865" at="51,23,52,20" concept="0" />
+      <node id="6655287260023165481" at="53,5,54,0" concept="6" />
+      <node id="6655287260023165278" at="54,0,55,0" concept="6" />
+      <node id="6655287260023165457" at="31,5,38,5" concept="2" />
+      <node id="6655287260023170462" at="38,5,45,5" concept="2" />
+      <node id="6655287260023153464" at="15,55,23,5" concept="2" />
+      <node id="6655287260023166308" at="23,5,31,5" concept="2" />
+      <node id="6655287260023175859" at="45,5,53,5" concept="2" />
+      <node id="6655287260023153450" at="13,0,57,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023165463" at="32,210,37,20" />
+      <scope id="6655287260023170468" at="39,207,44,20" />
+      <scope id="6655287260023153466" at="16,199,22,20" />
+      <scope id="6655287260023166314" at="24,202,30,20" />
+      <scope id="6655287260023175865" at="46,201,52,20" />
+      <scope id="6655287260023153450" at="14,54,55,0">
+        <var name="tgs" id="6655287260023153450" />
+      </scope>
+      <scope id="6655287260023153450" at="13,0,57,0">
+        <var name="ctx" id="6655287260023153450" />
+      </scope>
+      <unit id="6655287260023153450" at="12,0,58,0" name="VagrantfileLanguage.textGen.OptionsDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260023241042">
+    <file name="PortForwardingNetworkInterfaceDeclaration_TextGen.java">
+      <node id="6655287260023241042" at="13,54,14,55" concept="4" />
+      <node id="6655287260023241042" at="14,55,15,27" concept="0" />
+      <node id="6655287260023241042" at="15,27,16,194" concept="0" />
+      <node id="6655287260023241042" at="16,194,17,26" concept="0" />
+      <node id="6655287260023241042" at="17,26,18,193" concept="0" />
+      <node id="6655287260023241042" at="18,193,19,18" concept="0" />
+      <node id="6655287260023241042" at="12,0,21,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023241042" at="13,54,19,18">
+        <var name="tgs" id="6655287260023241042" />
+      </scope>
+      <scope id="6655287260023241042" at="12,0,21,0">
+        <var name="ctx" id="6655287260023241042" />
+      </scope>
+      <unit id="6655287260023241042" at="11,0,22,0" name="VagrantfileLanguage.textGen.PortForwardingNetworkInterfaceDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260023243505">
+    <file name="PrivateNetworkInterfaceDeclaration_TextGen.java">
+      <node id="6655287260023243505" at="14,54,15,55" concept="4" />
+      <node id="6655287260023584146" at="16,391,17,22" concept="0" />
+      <node id="6655287260023584146" at="17,22,18,20" concept="0" />
+      <node id="6655287260023243505" at="19,5,20,44" concept="0" />
+      <node id="6655287260023593493" at="21,203,22,19" concept="0" />
+      <node id="6655287260023593493" at="22,19,23,38" concept="0" />
+      <node id="6655287260023593493" at="23,38,24,20" concept="0" />
+      <node id="6655287260023589115" at="26,192,27,19" concept="0" />
+      <node id="6655287260023589115" at="27,19,28,35" concept="0" />
+      <node id="6655287260023589115" at="28,35,29,20" concept="0" />
+      <node id="6655287260023590126" at="31,198,32,19" concept="0" />
+      <node id="6655287260023590126" at="32,19,33,27" concept="0" />
+      <node id="6655287260023590126" at="33,27,34,349" concept="0" />
+      <node id="6655287260023590126" at="34,349,35,23" concept="0" />
+      <node id="6655287260023590126" at="35,23,36,20" concept="0" />
+      <node id="6655287260023243505" at="37,5,38,44" concept="0" />
+      <node id="6655287260023584144" at="15,55,19,5" concept="2" />
+      <node id="6655287260023593491" at="20,44,25,5" concept="2" />
+      <node id="6655287260023589113" at="25,5,30,5" concept="2" />
+      <node id="6655287260023590124" at="30,5,37,5" concept="2" />
+      <node id="6655287260023243505" at="13,0,40,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023584146" at="16,391,18,20" />
+      <scope id="6655287260023593493" at="21,203,24,20" />
+      <scope id="6655287260023589115" at="26,192,29,20" />
+      <scope id="6655287260023590126" at="31,198,36,20" />
+      <scope id="6655287260023243505" at="14,54,38,44">
+        <var name="tgs" id="6655287260023243505" />
+      </scope>
+      <scope id="6655287260023243505" at="13,0,40,0">
+        <var name="ctx" id="6655287260023243505" />
+      </scope>
+      <unit id="6655287260023243505" at="12,0,41,0" name="VagrantfileLanguage.textGen.PrivateNetworkInterfaceDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260023246020">
+    <file name="PublicNetworkInterfaceDeclaration_TextGen.java">
+      <node id="6655287260023246020" at="17,54,18,55" concept="4" />
+      <node id="6655287260023389244" at="19,637,20,22" concept="0" />
+      <node id="6655287260023389244" at="20,22,21,20" concept="0" />
+      <node id="6655287260023246020" at="22,5,23,44" concept="0" />
+      <node id="6655287260023401890" at="24,215,25,19" concept="0" />
+      <node id="6655287260023401890" at="25,19,26,58" concept="0" />
+      <node id="6655287260023401890" at="26,58,27,442" concept="0" />
+      <node id="6655287260023401890" at="27,442,28,20" concept="0" />
+      <node id="6655287260023430851" at="29,5,30,0" concept="6" />
+      <node id="6655287260023431689" at="31,198,32,19" concept="0" />
+      <node id="6655287260023431689" at="32,19,33,25" concept="0" />
+      <node id="6655287260023431689" at="33,25,34,349" concept="0" />
+      <node id="6655287260023431689" at="34,349,35,251" concept="0" />
+      <node id="6655287260023403000" at="36,5,37,0" concept="6" />
+      <node id="984088597355970781" at="39,233,40,21" concept="0" />
+      <node id="984088597355970781" at="40,21,41,33" concept="0" />
+      <node id="984088597355970781" at="41,33,42,407" concept="0" />
+      <node id="984088597355970781" at="42,407,43,25" concept="0" />
+      <node id="984088597355970781" at="43,25,44,22" concept="0" />
+      <node id="984088597355970780" at="44,22,45,0" concept="6" />
+      <node id="984088597355983397" at="47,232,48,21" concept="0" />
+      <node id="984088597355983397" at="48,21,49,32" concept="0" />
+      <node id="984088597355983397" at="49,32,50,22" concept="0" />
+      <node id="984088597355983397" at="50,22,51,48" concept="0" />
+      <node id="6655287260023424118" at="53,43,54,25" concept="0" />
+      <node id="6655287260023424118" at="54,25,55,29" concept="0" />
+      <node id="6655287260023424118" at="55,29,56,196" concept="0" />
+      <node id="6655287260023424118" at="56,196,57,30" concept="0" />
+      <node id="6655287260023424118" at="57,30,58,26" concept="0" />
+      <node id="984088597355983397" at="60,11,61,48" concept="0" />
+      <node id="984088597355983397" at="61,48,62,21" concept="0" />
+      <node id="984088597355983397" at="62,21,63,24" concept="0" />
+      <node id="984088597355983397" at="63,24,64,22" concept="0" />
+      <node id="984088597355983397" at="64,22,65,22" concept="0" />
+      <node id="984088597355970364" at="66,7,67,0" concept="6" />
+      <node id="6655287260023473516" at="68,5,69,0" concept="6" />
+      <node id="6655287260023246020" at="69,0,70,44" concept="0" />
+      <node id="6655287260023389242" at="18,55,22,5" concept="2" />
+      <node id="6655287260023401888" at="23,44,29,5" concept="2" />
+      <node id="6655287260023431687" at="30,0,36,5" concept="2" />
+      <node id="6655287260023424117" at="53,0,60,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="984088597355970779" at="38,230,46,7" concept="2" />
+      <node id="6655287260023416090" at="51,48,60,11" concept="0" />
+      <node id="984088597355983395" at="46,7,66,7" concept="2" />
+      <node id="6655287260023403626" at="37,0,68,5" concept="2" />
+      <node id="6655287260023246020" at="16,0,72,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023389244" at="19,637,21,20" />
+      <scope id="6655287260023401890" at="24,215,28,20" />
+      <scope id="6655287260023431689" at="31,198,35,251" />
+      <scope id="6655287260023424118" at="53,43,58,26" />
+      <scope id="984088597355970781" at="39,233,45,0" />
+      <scope id="6655287260023424117" at="53,0,60,0">
+        <var name="bridge" id="6655287260023424117" />
+      </scope>
+      <scope id="984088597355983397" at="47,232,65,22" />
+      <scope id="6655287260023403628" at="38,230,67,0" />
+      <scope id="6655287260023246020" at="17,54,70,44">
+        <var name="tgs" id="6655287260023246020" />
+      </scope>
+      <scope id="6655287260023246020" at="16,0,72,0">
+        <var name="ctx" id="6655287260023246020" />
+      </scope>
+      <unit id="6655287260023424117" at="52,229,60,9" name="VagrantfileLanguage.textGen.PublicNetworkInterfaceDeclaration_TextGen$1" />
+      <unit id="6655287260023246020" at="15,0,73,0" name="VagrantfileLanguage.textGen.PublicNetworkInterfaceDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260023246093">
+    <file name="VirtualBoxSharedFolderDeclaration_TextGen.java">
+      <node id="6655287260023246093" at="14,54,15,55" concept="4" />
+      <node id="6655287260023246093" at="15,55,16,22" concept="0" />
+      <node id="6655287260023246093" at="16,22,17,218" concept="0" />
+      <node id="6655287260023246093" at="17,218,18,25" concept="0" />
+      <node id="6655287260023246093" at="18,25,19,223" concept="0" />
+      <node id="6655287260023246093" at="19,223,20,33" concept="0" />
+      <node id="6655287260023246093" at="20,33,21,226" concept="0" />
+      <node id="6655287260023246093" at="21,226,22,18" concept="0" />
+      <node id="6655287260023246093" at="13,0,24,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023246093" at="14,54,22,18">
+        <var name="tgs" id="6655287260023246093" />
+      </scope>
+      <scope id="6655287260023246093" at="13,0,24,0">
+        <var name="ctx" id="6655287260023246093" />
+      </scope>
+      <unit id="6655287260023246093" at="12,0,25,0" name="VagrantfileLanguage.textGen.VirtualBoxSharedFolderDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260023246200">
+    <file name="InlineShellProvisioningDeclaration_TextGen.java">
+      <node id="6655287260023246200" at="14,54,15,55" concept="4" />
+      <node id="6655287260023246200" at="15,55,16,31" concept="0" />
+      <node id="6655287260023246200" at="16,31,17,219" concept="0" />
+      <node id="6655287260023246200" at="17,219,18,21" concept="0" />
+      <node id="6655287260023246200" at="18,21,19,18" concept="0" />
+      <node id="6655287260023246200" at="13,0,21,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023246200" at="14,54,19,18">
+        <var name="tgs" id="6655287260023246200" />
+      </scope>
+      <scope id="6655287260023246200" at="13,0,21,0">
+        <var name="ctx" id="6655287260023246200" />
+      </scope>
+      <unit id="6655287260023246200" at="12,0,22,0" name="VagrantfileLanguage.textGen.InlineShellProvisioningDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260023261965">
+    <file name="VirtualBoxProviderDeclaration_TextGen.java">
+      <node id="6655287260023261965" at="16,54,17,55" concept="4" />
+      <node id="6655287260023261965" at="17,55,18,44" concept="0" />
+      <node id="6655287260023798719" at="19,187,20,19" concept="0" />
+      <node id="6655287260023798719" at="20,19,21,38" concept="0" />
+      <node id="6655287260023798719" at="21,38,22,224" concept="0" />
+      <node id="6655287260023798719" at="22,224,23,20" concept="0" />
+      <node id="6655287260023801226" at="25,196,26,19" concept="0" />
+      <node id="6655287260023801226" at="26,19,27,47" concept="0" />
+      <node id="6655287260023801226" at="27,47,28,233" concept="0" />
+      <node id="6655287260023801226" at="28,233,29,20" concept="0" />
+      <node id="6655287260023807523" at="31,205,32,19" concept="0" />
+      <node id="6655287260023807523" at="32,19,33,41" concept="0" />
+      <node id="6655287260023807523" at="33,41,34,195" concept="0" />
+      <node id="6655287260023807523" at="34,195,35,23" concept="0" />
+      <node id="6655287260023807523" at="35,23,36,20" concept="0" />
+      <node id="6655287260024206357" at="37,5,38,0" concept="6" />
+      <node id="6655287260024207148" at="39,192,40,19" concept="0" />
+      <node id="6655287260024207148" at="40,19,41,39" concept="0" />
+      <node id="6655287260024207148" at="41,39,42,201" concept="0" />
+      <node id="6655287260024207148" at="42,201,43,20" concept="0" />
+      <node id="6655287260024213101" at="45,197,46,19" concept="0" />
+      <node id="6655287260024213101" at="46,19,47,41" concept="0" />
+      <node id="6655287260024213101" at="47,41,48,206" concept="0" />
+      <node id="6655287260024213101" at="48,206,49,20" concept="0" />
+      <node id="6655287260023874327" at="50,5,51,0" concept="6" />
+      <node id="6655287260023886518" at="53,218,54,29" concept="0" />
+      <node id="6655287260023261965" at="56,5,57,44" concept="0" />
+      <node id="6655287260023809280" at="59,55,60,43" concept="5" />
+      <node id="6655287260023886518" at="52,237,55,7" concept="1" />
+      <node id="6655287260023809280" at="59,0,62,0" concept="7" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="6655287260023874792" at="51,0,56,5" concept="2" />
+      <node id="6655287260023798717" at="18,44,24,5" concept="2" />
+      <node id="6655287260023801224" at="24,5,30,5" concept="2" />
+      <node id="6655287260024207146" at="38,0,44,5" concept="2" />
+      <node id="6655287260024213099" at="44,5,50,5" concept="2" />
+      <node id="6655287260023807521" at="30,5,37,5" concept="2" />
+      <node id="6655287260023261965" at="15,0,59,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023886518" at="53,218,54,29" />
+      <scope id="6655287260023809280" at="59,55,60,43" />
+      <scope id="6655287260023874794" at="52,237,55,7" />
+      <scope id="6655287260023886518" at="52,237,55,7">
+        <var name="item" id="6655287260023886518" />
+      </scope>
+      <scope id="6655287260023809280" at="59,0,62,0">
+        <var name="str" id="6655287260023809280" />
+      </scope>
+      <scope id="6655287260023798719" at="19,187,23,20" />
+      <scope id="6655287260023801226" at="25,196,29,20" />
+      <scope id="6655287260024207148" at="39,192,43,20" />
+      <scope id="6655287260024213101" at="45,197,49,20" />
+      <scope id="6655287260023807523" at="31,205,36,20" />
+      <scope id="6655287260023261965" at="16,54,57,44">
+        <var name="tgs" id="6655287260023261965" />
+      </scope>
+      <scope id="6655287260023261965" at="15,0,59,0">
+        <var name="ctx" id="6655287260023261965" />
+      </scope>
+      <unit id="6655287260023261965" at="14,0,63,0" name="VagrantfileLanguage.textGen.VirtualBoxProviderDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260023726158">
+    <file name="FileShellProvisioningDeclaration_TextGen.java">
+      <node id="6655287260023726158" at="13,54,14,55" concept="4" />
+      <node id="6655287260023726158" at="14,55,15,29" concept="0" />
+      <node id="6655287260023726158" at="15,29,16,193" concept="0" />
+      <node id="6655287260023726158" at="16,193,17,21" concept="0" />
+      <node id="6655287260023726158" at="17,21,18,18" concept="0" />
+      <node id="6655287260023726158" at="12,0,20,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023726158" at="13,54,18,18">
+        <var name="tgs" id="6655287260023726158" />
+      </scope>
+      <scope id="6655287260023726158" at="12,0,20,0">
+        <var name="ctx" id="6655287260023726158" />
+      </scope>
+      <unit id="6655287260023726158" at="11,0,21,0" name="VagrantfileLanguage.textGen.FileShellProvisioningDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260023727598">
+    <file name="FileProvisioningDeclaration_TextGen.java">
+      <node id="6655287260023727598" at="13,54,14,55" concept="4" />
+      <node id="6655287260023727598" at="14,55,15,31" concept="0" />
+      <node id="6655287260023727598" at="15,31,16,195" concept="0" />
+      <node id="6655287260023727598" at="16,195,17,38" concept="0" />
+      <node id="6655287260023727598" at="17,38,18,200" concept="0" />
+      <node id="6655287260023727598" at="18,200,19,21" concept="0" />
+      <node id="6655287260023727598" at="19,21,20,18" concept="0" />
+      <node id="6655287260023727598" at="12,0,22,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023727598" at="13,54,20,18">
+        <var name="tgs" id="6655287260023727598" />
+      </scope>
+      <scope id="6655287260023727598" at="12,0,22,0">
+        <var name="ctx" id="6655287260023727598" />
+      </scope>
+      <unit id="6655287260023727598" at="11,0,23,0" name="VagrantfileLanguage.textGen.FileProvisioningDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/6655287260023843973">
+    <file name="KeyValueVirtualBoxCustomizationDeclaration_TextGen.java">
+      <node id="6655287260023843973" at="13,54,14,55" concept="4" />
+      <node id="6655287260023843973" at="14,55,15,17" concept="0" />
+      <node id="6655287260023843973" at="15,17,16,64" concept="0" />
+      <node id="6655287260023843973" at="16,64,17,192" concept="0" />
+      <node id="6655287260023843973" at="17,192,18,25" concept="0" />
+      <node id="6655287260023843973" at="18,25,19,194" concept="0" />
+      <node id="6655287260023843973" at="19,194,20,22" concept="0" />
+      <node id="6655287260023843973" at="20,22,21,18" concept="0" />
+      <node id="6655287260023843973" at="12,0,23,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6655287260023843973" at="13,54,21,18">
+        <var name="tgs" id="6655287260023843973" />
+      </scope>
+      <scope id="6655287260023843973" at="12,0,23,0">
+        <var name="ctx" id="6655287260023843973" />
+      </scope>
+      <unit id="6655287260023843973" at="11,0,24,0" name="VagrantfileLanguage.textGen.KeyValueVirtualBoxCustomizationDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:468f0776-be4a-480a-8a9b-5e72c292468f(VagrantfileLanguage.textGen)/984088597355021047">
+    <file name="SshDeclaration_TextGen.java">
+      <node id="984088597355021047" at="14,54,15,55" concept="4" />
+      <node id="984088597355021063" at="16,207,17,342" concept="0" />
+      <node id="984088597355021063" at="17,342,18,39" concept="0" />
+      <node id="984088597355021063" at="18,39,19,197" concept="0" />
+      <node id="984088597355021063" at="19,197,20,23" concept="0" />
+      <node id="984088597355021063" at="20,23,21,20" concept="0" />
+      <node id="984088597355055404" at="22,5,23,0" concept="6" />
+      <node id="984088597355055580" at="24,207,25,342" concept="0" />
+      <node id="984088597355055580" at="25,342,26,39" concept="0" />
+      <node id="984088597355055580" at="26,39,27,197" concept="0" />
+      <node id="984088597355055580" at="27,197,28,23" concept="0" />
+      <node id="984088597355055580" at="28,23,29,20" concept="0" />
+      <node id="984088597355057313" at="30,5,31,0" concept="6" />
+      <node id="984088597355057728" at="32,195,33,342" concept="0" />
+      <node id="984088597355057728" at="33,342,34,42" concept="0" />
+      <node id="984088597355057728" at="34,42,35,232" concept="0" />
+      <node id="984088597355057728" at="35,232,36,20" concept="0" />
+      <node id="984088597355059967" at="37,5,38,0" concept="6" />
+      <node id="984088597355060513" at="39,192,40,342" concept="0" />
+      <node id="984088597355060513" at="40,342,41,39" concept="0" />
+      <node id="984088597355060513" at="41,39,42,229" concept="0" />
+      <node id="984088597355060513" at="42,229,43,20" concept="0" />
+      <node id="984088597355057558" at="44,5,45,0" concept="6" />
+      <node id="984088597355097192" at="46,215,47,342" concept="0" />
+      <node id="984088597355097192" at="47,342,48,47" concept="0" />
+      <node id="984088597355097192" at="48,47,49,205" concept="0" />
+      <node id="984088597355097192" at="49,205,50,23" concept="0" />
+      <node id="984088597355097192" at="50,23,51,20" concept="0" />
+      <node id="984088597355096816" at="52,5,53,0" concept="6" />
+      <node id="984088597355022518" at="55,55,56,43" concept="5" />
+      <node id="984088597355022518" at="55,0,58,0" concept="7" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="984088597355057727" at="31,0,37,5" concept="2" />
+      <node id="984088597355060512" at="38,0,44,5" concept="2" />
+      <node id="984088597355021061" at="15,55,22,5" concept="2" />
+      <node id="984088597355055578" at="23,0,30,5" concept="2" />
+      <node id="984088597355097191" at="45,0,52,5" concept="2" />
+      <node id="984088597355021047" at="13,0,55,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="984088597355022518" at="55,55,56,43" />
+      <scope id="984088597355022518" at="55,0,58,0">
+        <var name="str" id="984088597355022518" />
+      </scope>
+      <scope id="984088597355057728" at="32,195,36,20" />
+      <scope id="984088597355060513" at="39,192,43,20" />
+      <scope id="984088597355021063" at="16,207,21,20" />
+      <scope id="984088597355055580" at="24,207,29,20" />
+      <scope id="984088597355097192" at="46,215,51,20" />
+      <scope id="984088597355021047" at="14,54,53,0">
+        <var name="tgs" id="984088597355021047" />
+      </scope>
+      <scope id="984088597355021047" at="13,0,55,0">
+        <var name="ctx" id="984088597355021047" />
+      </scope>
+      <unit id="984088597355021047" at="12,0,59,0" name="VagrantfileLanguage.textGen.SshDeclaration_TextGen" />
+    </file>
+  </root>
+</debug-info>
+
